@@ -76,6 +76,7 @@ export const toggleTodo = command(z.string(), async (id) => {
 })
 
 /*
+	- ⚠️ currently prerendering doesn't work because the build fails
 	- prerender functions are like queries except they're invoked at
 		build time to prerender the result
 	- useful for data that changes at most once per redeployment
@@ -84,6 +85,5 @@ export const toggleTodo = command(z.string(), async (id) => {
 	- there's more about prerendering functions in the RFC
 */
 export const getTime = prerender(() => {
-	// build the project using `pnpm build` and run `pnpm preview`
 	return new Date().toLocaleTimeString()
 })
