@@ -7,7 +7,7 @@ Svelte recently announced a [proposal for remote functions](https://github.com/s
 This repo includes:
 
 - Code example from [https://github.com/dummdidumm/svelte-async-remote-functions-example](https://github.com/dummdidumm/svelte-async-remote-functions-example)
-- [Svelte async PR](https://github.com/sveltejs/svelte/pull/15844) and the [SvelteKit RPC PR](https://github.com/sveltejs/kit/pull/13957)
+- [Asynchronous Svelte PR](https://github.com/sveltejs/svelte/pull/15844) and the [SvelteKit Remote Functions PR](https://github.com/sveltejs/kit/pull/13957)
 
 ## Getting Started
 
