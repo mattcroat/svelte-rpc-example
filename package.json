@@ -1,7 +1,5 @@
 {
 	"name": "svelte-rpc-example",
-	"private": true,
-	"version": "0.0.1",
 	"type": "module",
 	"scripts": {
 		"dev": "vite dev",
@@ -25,6 +23,7 @@
 		"vite": "^6.2.6"
 	},
 	"dependencies": {
-		"open-props": "^1.7.15"
+		"open-props": "^1.7.15",
+		"zod": "^3.25.74"
 	}
 }

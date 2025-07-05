@@ -11,6 +11,9 @@ importers:
       open-props:
         specifier: ^1.7.15
         version: 1.7.15
+      zod:
+        specifier: ^3.25.74
+        version: 3.25.74
     devDependencies:
       '@sveltejs/adapter-auto':
         specifier: ^6.0.0
@@ -589,6 +592,9 @@ packages:
   zimmerframe@1.1.2:
     resolution: {integrity: sha512-rAbqEGa8ovJy4pyBxZM70hg4pE6gDgaQ0Sl9M3enG3I0d6H4XSAM3GeNGLKnsBpuijUow064sf7ww1nutC5/3w==}
 
+  zod@3.25.74:
+    resolution: {integrity: sha512-J8poo92VuhKjNknViHRAIuuN6li/EwFbAC8OedzI8uxpEPGiXHGQu9wemIAioIpqgfB4SySaJhdk0mH5Y4ICBg==}
+
 snapshots:
 
   '@ampproject/remapping@2.3.0':
@@ -1006,3 +1012,5 @@ snapshots:
       vite: 6.3.5
 
   zimmerframe@1.1.2: {}
+
+  zod@3.25.74: {}
