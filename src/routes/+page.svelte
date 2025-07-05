@@ -3,7 +3,7 @@
 
 	/*
 		- `getTodos` does a remote function call on the client
-		  using `fetch` but is invoked directly on the server
+			using `fetch` but is invoked directly on the server
 		- SSR is not implemented yet in the async branch
 	*/
 	const todos = getTodos()
