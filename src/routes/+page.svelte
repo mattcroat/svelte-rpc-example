@@ -13,7 +13,7 @@
 	<h1>Todo App</h1>
 
 	<!-- prerendering example -->
-	<p>Time: {getTime()}</p>
+	<p>Time: {await getTime()}</p>
 
 	<!-- using enhance to customize how the form is progressively enhanced -->
 	<form
